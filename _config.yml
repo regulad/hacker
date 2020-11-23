@@ -1,3 +1,5 @@
+theme: pages-themes-hacker
+
 # Plugins
 plugins:
   - github-pages
