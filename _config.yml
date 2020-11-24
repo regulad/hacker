@@ -1,5 +1,29 @@
-theme: pages-themes-hacker
+remote_theme: regulad/hacker
+title: Regulad's Hacker Fork
+name: Regulad's Hacker Fork
 
 # Plugins
 plugins:
   - github-pages
+  
+# Elements
+show_downloads: false
+show_description: false
+google_analytics: 
+post_show_tags: false
+post_show_author: false
+
+# Sass/SCSS
+sass:
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  startings: [html, head, body]
