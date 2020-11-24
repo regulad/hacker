@@ -30,6 +30,9 @@ plugins:
 
 * `show_downloads: truthy/falsey`
 * `show_description: truthy/falsey`
+* `show_footer: truthy/falsey`
 * `google_analytics: id`
 * `post_show_tags: truthy/falsey`
 * `post_show_author: truthy/falsey`
+* `color: light/dark`
+* `favicon: truthy/falsey` (If you would like to use a custom path, subsitute `truthy/falsey` with `/path/to/favicon`)

@@ -1,4 +1,5 @@
 ---
 ---
 
-@import 'main';
+@import "{{ site.color | append: "_colors" }}";
+@import "common";
