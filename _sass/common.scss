@@ -62,7 +62,7 @@ li {
   h2 {
     font-size: 18px;
     font-weight: 300;
-    color: $dove-grey;
+    color: $alto;
   }
 }
 
@@ -90,9 +90,9 @@ h1, h2, h3, h4, h5, h6 {
   color: $header;
   letter-spacing: -0.03em;
   margin: 0 auto;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+  text-shadow: 0 1px 1px $cod-grey,
+               0 0 3px $dove-grey,
+               0 0 3px $dove-grey;
 }
 
 h1 {
