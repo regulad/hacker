@@ -1,5 +1,3 @@
-@import "rouge-base16";
-
 $body-background: $cod-grey !default;
 $body-foreground: $gallery !default;
 $header: $conifer !default;
@@ -66,7 +64,7 @@ li {
   }
 }
 
-#downloads .btn {
+#downloads, #downloads * {
   display: inline-block;
   text-align: center;
   margin: 0;
@@ -188,7 +186,7 @@ hr {
 
 /* Buttons */
 
-.btn {
+.btn, button {
   display: inline-block;
   background: -webkit-linear-gradient(top, $cod-grey, $cod-grey 50%, $cod-grey 50%, $cod-grey);
   padding: 8px 18px;
@@ -212,7 +210,7 @@ hr {
   }
 }
 
-.btn:hover {
+.btn:hover, button:hover {
   background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
 }
 

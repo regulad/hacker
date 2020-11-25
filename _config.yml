@@ -7,14 +7,8 @@ plugins:
   - github-pages
   
 # Elements
-show_downloads: false
-show_description: false
-show_footer: false
-google_analytics: 
-post_show_tags: false
-post_show_author: false
-color: dark
-favicon: 
+show_header: true
+show_description: true
 
 # Sass/SCSS
 sass:

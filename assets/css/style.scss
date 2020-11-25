@@ -1,5 +1,6 @@
 ---
 ---
 
-@import "{{ site.color | append: "_colors" }}";
+@import "{% if site.color %}{{ site.color | append: "_colors"}}{% else %}dark_colors{% endif %}";
 @import "common";
+@import "rouge-base16";
