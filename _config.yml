@@ -5,7 +5,7 @@ name: Regulad's Hacker Fork
 # Plugins
 plugins:
   - github-pages
-  
+
 # Elements
 show_header: true
 show_description: true
