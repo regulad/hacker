@@ -29,6 +29,7 @@ remote_theme: regulad/hacker
 If you aren't using Github Pages, you should add `gem "github-pages"` to your Gemfile under the `jekyll_plugins` bundler group.
 
 ```ruby
+source 'https://rubygems.org'
 group :jekyll_plugins do
   gem "github-pages"
 end
