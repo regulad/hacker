@@ -2,8 +2,6 @@
 
 Welcome! This is a better version of the Jekyll theme pages-themes/hacker, and it is also compatable with Github Pages.
 
-[Full Example](./example)
-
 ## Elements
 
 Over pages-themes/hacker, I have made things a lot more configurable.
