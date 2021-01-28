@@ -2,6 +2,10 @@
 
 Welcome! This is a better version of the Jekyll theme pages-themes/hacker, and it is also compatable with Github Pages.
 
+## Notice!
+
+I am now developing my own theme: [`regulad/crust-tastic`](https://github.com/regulad/crust-tastic). It shares some similarities, but is more detached from [`pages-themes/hacker`](https://github.com/pages-themes/hacker).
+
 ## Elements
 
 Over pages-themes/hacker, I have made things a lot more configurable.
